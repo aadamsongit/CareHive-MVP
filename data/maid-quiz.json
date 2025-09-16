@@ -1,0 +1,156 @@
+{
+  "title": "Carehive Maid Quiz",
+  "passingScore": 17,
+  "questions": [
+    {
+      "id": 1,
+      "question": "True or False: It's okay to take something from the house if no one will notice.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": 2,
+      "question": "What do you do if you break something at work?",
+      "options": ["Hide it", "Blame someone else", "Report it honestly to your employer", "Throw it away quickly"],
+      "answer": "Report it honestly to your employer"
+    },
+    {
+      "id": 3,
+      "question": "True or False: It's important to keep the employer's information private.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": 4,
+      "question": "Your employer left a K50 note on the table. What should you do?",
+      "options": ["Take it and say nothing", "Use it to buy lunch", "Inform your employer about it", "Hide it in case they forgot it"],
+      "answer": "Inform your employer about it"
+    },
+    {
+      "id": 5,
+      "question": "If you are sick, what is the best thing to do?",
+      "options": ["Don't tell anyone and work", "Stay home without telling", "Inform your employer early", "Ask another maid to replace you"],
+      "answer": "Inform your employer early"
+    },
+    {
+      "id": 6,
+      "question": "What makes a good worker?",
+      "options": ["Waiting to be told everything", "Hardworking, honest, and respectful", "Doing only what you like", "Talking a lot to employers"],
+      "answer": "Hardworking, honest, and respectful"
+    },
+    {
+      "id": 7,
+      "question": "True or False: A good maid should help with children even if not asked.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": 8,
+      "question": "Your employer asks you to clean the fridge. What should you do first?",
+      "options": ["Spray Harpic inside", "Switch it off and remove the food", "Wash dishes first", "Put all cleaning items inside the fridge"],
+      "answer": "Switch it off and remove the food"
+    },
+    {
+      "id": 9,
+      "question": "You're asked to prepare food for a sick child. What is the best meal option?",
+      "options": ["Hot chips", "Cold nshima", "Soft porridge or light soup", "Spicy beef stew"],
+      "answer": "Soft porridge or light soup"
+    },
+    {
+      "id": 10,
+      "question": "A visitor gives you money to 'thank you for your work.' What should you do?",
+      "options": ["Keep it and say nothing", "Tell your employer", "Share it with the children", "Buy sweets"],
+      "answer": "Tell your employer"
+    },
+    {
+      "id": 11,
+      "question": "Which of these is a good dishwashing step?",
+      "options": ["Rinse only with water", "Soak, scrub with Boom, rinse, and dry", "Wash with cold water only", "Spray Doom and leave it"],
+      "answer": "Soak, scrub with Boom, rinse, and dry"
+    },
+    {
+      "id": 12,
+      "question": "Which Zambian product is best for toilets?",
+      "options": ["Jik", "Harpic", "Boom", "Sunlight bar"],
+      "answer": "Harpic"
+    },
+    {
+      "id": 13,
+      "question": "True or False: You can mix Jik and Harpic to clean better.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": 14,
+      "question": "What is the safest way to iron a shirt?",
+      "options": ["High heat on all clothes", "Spray Jik on it", "Set the right heat for the fabric", "Iron in the bathroom"],
+      "answer": "Set the right heat for the fabric"
+    },
+    {
+      "id": 15,
+      "question": "Which item should NOT be used on a baby's skin?",
+      "options": ["Vaseline", "Johnson's Baby Oil", "Harpic", "Baby powder"],
+      "answer": "Harpic"
+    },
+    {
+      "id": 16,
+      "question": "True or False: It's safe to leave Boom water in a bucket where children play.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": 17,
+      "question": "What should you do before mopping a tiled floor?",
+      "options": ["Pour cooking oil on the floor", "Sweep the floor first", "Use Harpic directly", "Boil water"],
+      "answer": "Sweep the floor first"
+    },
+    {
+      "id": 18,
+      "question": "Which product can be used to remove stains from white clothes?",
+      "options": ["Salt", "Cooking oil", "Jik", "Water only"],
+      "answer": "Jik"
+    },
+    {
+      "id": 19,
+      "question": "How do you know if food is spoiled?",
+      "options": ["Smell and appearance", "Employer says it", "Put it in the freezer", "Eat to test"],
+      "answer": "Smell and appearance"
+    },
+    {
+      "id": 20,
+      "question": "When feeding a baby, you should always:",
+      "options": ["Hold the baby upright", "Lie them flat and feed", "Talk on the phone", "Watch TV while feeding"],
+      "answer": "Hold the baby upright"
+    },
+    {
+      "id": 21,
+      "question": "What is the best way to clean a stove after cooking?",
+      "options": ["Leave it until the next day", "Wipe with dry cloth only", "Let it cool, then wipe with warm soapy water", "Spray insecticide on it"],
+      "answer": "Let it cool, then wipe with warm soapy water"
+    },
+    {
+      "id": 22,
+      "question": "What should you do when a child throws a tantrum?",
+      "options": ["Beat the child", "Ignore completely", "Calmly talk to them and distract", "Lock them in a room"],
+      "answer": "Calmly talk to them and distract"
+    },
+    {
+      "id": 23,
+      "question": "What should you do before cooking vegetables?",
+      "options": ["Cook without washing", "Wash them properly", "Soak in Boom", "Fry first, wash later"],
+      "answer": "Wash them properly"
+    },
+    {
+      "id": 24,
+      "question": "How can you keep the house smelling fresh?",
+      "options": ["Spray Doom everywhere", "Burn old clothes", "Clean daily and use mild air freshener", "Open fridge door"],
+      "answer": "Clean daily and use mild air freshener"
+    },
+    {
+      "id": 25,
+      "question": "What should you do if you don't know how to use a certain chemical or product?",
+      "options": ["Guess and try", "Mix everything", "Ask the employer or read the label", "Use it on all surfaces"],
+      "answer": "Ask the employer or read the label"
+    }
+  ]
+} 

@@ -1,0 +1,126 @@
+{
+  "title": "Carehive Caregiver Quiz",
+  "passingScore": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the most important quality in a caregiver?",
+      "options": ["Strength", "Compassion", "Speed", "Humor"],
+      "answer": "Compassion"
+    },
+    {
+      "id": 2,
+      "question": "Which of these is NOT considered proper hygiene for a caregiver?",
+      "options": ["Washing hands regularly", "Wearing clean clothes", "Ignoring minor cuts or wounds", "Keeping nails trimmed"],
+      "answer": "Ignoring minor cuts or wounds"
+    },
+    {
+      "id": 3,
+      "question": "When talking to an elderly client, you should:",
+      "options": ["Shout loudly so they hear you", "Speak clearly and slowly", "Use difficult medical terms", "Talk only when necessary"],
+      "answer": "Speak clearly and slowly"
+    },
+    {
+      "id": 4,
+      "question": "Why is confidentiality important in caregiving?",
+      "options": ["To impress the client", "To keep secrets from the family", "To protect the client's privacy", "To avoid writing reports"],
+      "answer": "To protect the client's privacy"
+    },
+    {
+      "id": 5,
+      "question": "If a client refuses to eat, what should you do first?",
+      "options": ["Force them to eat", "Ignore them", "Notify the supervisor or family", "Hide the food"],
+      "answer": "Notify the supervisor or family"
+    },
+    {
+      "id": 6,
+      "question": "What is bed sore prevention related to?",
+      "options": ["Diet", "Changing positions regularly", "Giving more water", "None of the above"],
+      "answer": "Changing positions regularly"
+    },
+    {
+      "id": 7,
+      "question": "The correct way to lift a heavy patient is:",
+      "options": ["Use your back", "Lift quickly", "Use your legs and ask for help", "Drag the patient on the bed"],
+      "answer": "Use your legs and ask for help"
+    },
+    {
+      "id": 8,
+      "question": "When should a caregiver wear gloves?",
+      "options": ["Only in hospitals", "When touching wounds or body fluids", "Only during the day", "Never"],
+      "answer": "When touching wounds or body fluids"
+    },
+    {
+      "id": 9,
+      "question": "A client starts coughing while eating. You should:",
+      "options": ["Slap their back hard", "Make them lie down", "Stay calm and help them sit up", "Leave and call later"],
+      "answer": "Stay calm and help them sit up"
+    },
+    {
+      "id": 10,
+      "question": "The most respectful way to address an elderly client is:",
+      "options": ["Using their nickname", "Shouting their name", "Using \"Mr./Mrs.\" followed by their surname", "Using their first name without asking"],
+      "answer": "Using \"Mr./Mrs.\" followed by their surname"
+    },
+    {
+      "id": 11,
+      "question": "If a client is rude to you, what should you do?",
+      "options": ["Be rude back", "Report immediately without trying", "Stay calm, remain professional, and inform your supervisor", "Ignore them completely"],
+      "answer": "Stay calm, remain professional, and inform your supervisor"
+    },
+    {
+      "id": 12,
+      "question": "A child you are caring for refuses to bathe. You should:",
+      "options": ["Force them", "Scold them", "Calmly encourage them and explain why bathing is important", "Call their parents in anger"],
+      "answer": "Calmly encourage them and explain why bathing is important"
+    },
+    {
+      "id": 13,
+      "question": "If a client trusts you with money to buy groceries, what must you do?",
+      "options": ["Use some for yourself", "Buy whatever you like", "Return with receipts and balance", "Leave the groceries at the gate"],
+      "answer": "Return with receipts and balance"
+    },
+    {
+      "id": 14,
+      "question": "How would you behave in a client's home?",
+      "options": ["Like it's your own home", "With discipline, respect, and privacy", "Invite your friends over", "Use their phone and TV freely"],
+      "answer": "With discipline, respect, and privacy"
+    },
+    {
+      "id": 15,
+      "question": "What would you do if a client falls unconscious?",
+      "options": ["Pour water on them", "Leave to find help", "Immediately call emergency services or family", "Wait for them to wake up"],
+      "answer": "Immediately call emergency services or family"
+    },
+    {
+      "id": 16,
+      "question": "True or False: A caregiver should always arrive late because clients understand.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": 17,
+      "question": "True or False: You should gossip about clients to others.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": 18,
+      "question": "True or False: Caregivers are allowed to eat the client's food without permission.",
+      "options": ["True", "False"],
+      "answer": "False"
+    },
+    {
+      "id": 19,
+      "question": "True or False: Good communication involves listening carefully and speaking clearly.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": 20,
+      "question": "True or False: Being professional means showing up clean, on time, and respectful.",
+      "options": ["True", "False"],
+      "answer": "True"
+    }
+  ]
+} 
