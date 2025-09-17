@@ -2,16 +2,16 @@
 
 import React from "react";
 import styles from "./Header.module.css";
-import { motion } from "framer-motion";
 import LogoSVG from "./LogoSVG";
+import ContentSection from "./ContentSection";
 
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <video className={styles.videoBackground} autoPlay loop muted playsInline>
+      {/* <video className={styles.videoBackground} autoPlay loop muted playsInline>
         <source src="/hero.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
 
       <div className={styles.overlay}></div>
 
@@ -19,7 +19,8 @@ const Header: React.FC = () => {
         {/* Overlay content */}
         {/* Cinematic headline */}
         <LogoSVG></LogoSVG>
-        
+        <ContentSection />
+
         {/* <button className={styles.ctaButton}>Book Now</button> */}
       </div>
     </header>

@@ -3,7 +3,6 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-color: white;
     /* white page background */
 }
 
@@ -23,13 +22,12 @@
     z-index: 2;
     text-align: center;
     color: white;
-    top: 0;
+    top: 5%;
     /* instead of 50% */
     transform: translateY(-30%);
     /* match the top */
     padding: 0 2rem;
 }
 
-/* Remove overlay and button CSS  */
 
 

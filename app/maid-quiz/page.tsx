@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { QuizData, QuizQuestion } from "@/types/quiz";
+import { QuizData } from "@/types/quiz";
 import { loadQuizData, calculateQuizResult } from "@/lib/quizUtils";
 
 export default function MaidQuiz() {

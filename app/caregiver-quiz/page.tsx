@@ -1,15 +1,24 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { QuizData, QuizQuestion } from "@/types/quiz";
+import { QuizData } from "@/types/quiz";
 import { loadQuizData, calculateQuizResult } from "@/lib/quizUtils";
 
 export default function CaregiverQuiz() {
+
+  interface Result {
+    fullName: string;
+    score: number;
+    totalQuestions: number;
+    percentage: number;
+    passed: boolean;
+  }
+
   const [quizData, setQuizData] = useState<QuizData | null>(null);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [fullName, setFullName] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [result, setResult] = useState<any>(null);
+  const [result, setResult] = useState<Result | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -141,18 +150,18 @@ export default function CaregiverQuiz() {
             <h2 className="text-2xl font-bold mb-4">Quiz Results</h2>
             <div className="text-lg mb-4">
               <p>
-                <strong>Name:</strong> {result.fullName}
+                <strong>Name:</strong> {result ? result.fullName : ""}
               </p>
               <p>
-                <strong>Score:</strong> {result.score} out of{" "}
-                {result.totalQuestions}
+                <strong>Score:</strong> {result ? result.score : ""} out of{" "}
+                {result ? result.totalQuestions : ""}
               </p>
               <p>
-                <strong>Percentage:</strong> {result.percentage}%
+                <strong>Percentage:</strong> {result ? result.percentage : ""}%
               </p>
             </div>
 
-            {result.passed ? (
+            {result && result.passed ? (
               <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
                 <p className="font-bold">Congratulations!</p>
                 <p>
@@ -168,7 +177,7 @@ export default function CaregiverQuiz() {
                   </a>
                 </p>
               </div>
-            ) : (
+            ) : result ? (
               <div className="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded mb-4">
                 <p className="font-bold">Keep Learning!</p>
                 <p>
@@ -184,7 +193,7 @@ export default function CaregiverQuiz() {
                   </a>
                 </p>
               </div>
-            )}
+            ) : null}
           </div>
         )}
       </div>

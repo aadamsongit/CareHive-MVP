@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function LogoSVG() {
     return (
-        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-20">
+        <div className="absolute top-10 left-1/2 transform -translate-x-1/2 z-20">
           <motion.h1
             className="text-white text-5xl md:text-6xl font-bold"
             initial={{ y: 200, scale: 1.5 }}
