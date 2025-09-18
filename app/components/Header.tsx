@@ -5,6 +5,7 @@ import styles from "./Header.module.css";
 import LogoSVG from "./LogoSVG";
 import ContentSection from "./ContentSection";
 import { motion, Variants } from "framer-motion";
+import Carousel from "./Carousel";
 
 const Header: React.FC = () => {
   const containerVariants: Variants = {
@@ -51,7 +52,7 @@ const Header: React.FC = () => {
           <ContentSection />
         </motion.div>
 
-        {/* <button className={styles.ctaButton}>Book Now</button> */}
+        <Carousel />
       </motion.div>
     </header>
   );
