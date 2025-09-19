@@ -1,9 +1,10 @@
 .header {
     position: relative;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    /* white page background */
+    /* height: 100vh; */
+      height: auto;   /* let content dictate height */
+  overflow-x: hidden; /* only block sideways scroll */
+  overflow-y: auto;   /* allow vertical scroll */
 }
 
 .videoBackground {
