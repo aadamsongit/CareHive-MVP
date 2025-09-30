@@ -53,14 +53,6 @@ export default function Carousel() {
                         rounded-2xl shadow-xl border border-white/20 
                         bg-white/30 backdrop-blur-md"
             >
-              {/* Fixed header inside the card */}
-              {/* <h2 className="text-2xl font-bold mb-2">How We Work</h2>
-              <p className="text-gray-600 text-sm mb-6 text-center max-w-md">
-                At CareHive, we believe that every home deserves a caring and
-                reliable helper, and every worker deserves respect and fair
-                treatment.
-              </p> */}
-
               {/* Slide content */}
               <span className="text-4xl font-bold text-gray-800 mb-2">
                 {step.number}
@@ -69,7 +61,7 @@ export default function Carousel() {
                 <i className={`bi ${step.icon}`}></i>
               </div>
               <h3 className="text-lg font-semibold mb-1">{step.title}</h3>
-              <p className="text-gray-600 text-sm">{step.text}</p>
+              <p className="carousel-text">{step.text}</p>
             </div>
           </SwiperSlide>
         ))}

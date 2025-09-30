@@ -48,3 +48,8 @@ body {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.carousel-text {
+  color: rgba(255, 255, 255, 0.9);
+  /* almost white, still softer than full #fff */
+}
