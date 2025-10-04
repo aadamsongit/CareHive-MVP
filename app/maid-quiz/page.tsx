@@ -12,6 +12,11 @@ export default function MaidQuiz() {
   const [result, setResult] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
+  type QuizResult = {
+    fullName: string;
+    score: number;
+  };
+
   useEffect(() => {
     loadQuizData("maid")
       .then((data) => {

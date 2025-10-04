@@ -53,3 +53,36 @@ body {
   color: rgba(255, 255, 255, 0.9);
   /* almost white, still softer than full #fff */
 }
+
+/* globals.css */
+@layer base {
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #fff;
+    font-size: 1.5rem; /* 2xl */
+  }
+  .swiper-pagination-bullet {
+    background-color: #fff;
+    opacity: 0.6;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #2563eb; /* Tailwind blue-600 */
+    opacity: 1;
+  }
+
+  @media (min-width: 1024px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      font-size: 2.25rem; /* 4xl */
+    }
+  }
+
+  .swiper-pagination-bullet {
+    @apply bg-white opacity-60;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply bg-blue-600 opacity-100;
+  }
+}

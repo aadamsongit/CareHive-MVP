@@ -35,7 +35,7 @@ export default function Carousel() {
   ];
 
   return (
-    <section id="how-we-work" className="py-10">
+    <section id="how-we-work" className="py-10 w-full">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
@@ -44,15 +44,12 @@ export default function Carousel() {
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         navigation={true}
-        className="max-w-3xl mx-auto"
+        autoHeight={true}
+        className="max-w-3xl mx-auto w-full sm:py-10 lg: px-8"
       >
         {steps.map((step, idx) => (
           <SwiperSlide key={idx}>
-            <div
-              className="p-8 h-50 flex flex-col items-center justify-start 
-                        rounded-2xl shadow-xl border border-white/20 
-                        bg-white/30 backdrop-blur-md"
-            >
+            <div className="px-8 py-8 md:min-h-[12rem] sm:min-h-[18rem] flex flex-col items-center justify-start rounded-2xl shadow-xl border border-white/20  bg-white/30 backdrop-blur-md">
               {/* Slide content */}
               <span className="text-4xl font-bold text-gray-800 mb-2">
                 {step.number}
