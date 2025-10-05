@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { QuizData } from "@/types/quiz";
+import { QuizData, QuizResult } from "@/types/quiz";
 import { loadQuizData, calculateQuizResult } from "@/lib/quizUtils";
 
 export default function MaidQuiz() {
@@ -9,13 +9,8 @@ export default function MaidQuiz() {
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [fullName, setFullName] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [result, setResult] = useState<any>(null);
+  const [result, setResult] = useState<QuizResult | null>(null);
   const [loading, setLoading] = useState(true);
-
-  type QuizResult = {
-    fullName: string;
-    score: number;
-  };
 
   useEffect(() => {
     loadQuizData("maid")
@@ -145,19 +140,23 @@ export default function MaidQuiz() {
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <h2 className="text-2xl font-bold mb-4">Quiz Results</h2>
             <div className="text-lg mb-4">
-              <p>
-                <strong>Name:</strong> {result.fullName}
-              </p>
-              <p>
-                <strong>Score:</strong> {result.score} out of{" "}
-                {result.totalQuestions}
-              </p>
-              <p>
-                <strong>Percentage:</strong> {result.percentage}%
-              </p>
+              {result && (
+                <>
+                  <p>
+                    <strong>Name:</strong> {result.fullName}
+                  </p>
+                  <p>
+                    <strong>Score:</strong> {result.score} out of{" "}
+                    {result.totalQuestions}
+                  </p>
+                  <p>
+                    <strong>Percentage:</strong> {result.percentage}%
+                  </p>
+                </>
+              )}
             </div>
 
-            {result.passed ? (
+            {result && result.passed ? (
               <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
                 <p className="font-bold">Excellent!</p>
                 <p>
@@ -173,7 +172,7 @@ export default function MaidQuiz() {
                   </a>
                 </p>
               </div>
-            ) : (
+            ) : result && !result.passed ? (
               <div className="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded mb-4">
                 <p className="font-bold">Keep Learning!</p>
                 <p>
@@ -189,7 +188,7 @@ export default function MaidQuiz() {
                   </a>
                 </p>
               </div>
-            )}
+            ) : null}
           </div>
         )}
       </div>
