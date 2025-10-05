@@ -160,7 +160,7 @@ export default function MaidQuiz() {
               <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
                 <p className="font-bold">Excellent!</p>
                 <p>
-                  You're ready for the next interview with a score of{" "}
+                  You&apos;re ready for the next interview with a score of{" "}
                   {result.score}/{result.totalQuestions}.
                 </p>
                 <p className="mt-2">
